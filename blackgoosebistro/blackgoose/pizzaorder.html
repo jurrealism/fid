@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" >
+   <title>Black Goose Bistro Pizza</title>
+  <style type="text/css">
+      ol, ul {
+     list-style-type: none;
+      }
+
+   body {
+   background-color: #faf2e4;
+   margin: 0 15%;
+   font-family: sans-serif;
+   }
+
+   h1 {
+   text-align: center;
+   font-family: serif;
+   font-weight: normal;
+   text-transform: uppercase;
+   border-bottom: 1px solid #57b1dc;
+   margin-top: 30px;
+   }
+
+   h2 {
+   color: #d1633c;
+   font-size: 1.5em;
+   }
+
+   h3 {
+   color: #d1633c;
+   font-size: 1.5em;
+   }
+
+   h4 {
+   color: #d1633c;
+   font-size: 1.5em;
+   }
+
+   footer {
+   	  border-top: 1px solid #57b1dc;
+   	  text-align: center;
+   	  padding-top: 1em;
+   }
+   footer img {
+   	width: 40px;
+   	height: 40px;
+   	margin-left: .5em;
+   	margin-right: .5em;
+   }
+
+   </style>
+</head>
+
+<body>
+
+<h1>&ldquo;Black Goose Bistro&rdquo; Pizza-on-Demand</h1>
+<ul>
+<li><a href="index.html">Home</a></li>
+<li><a href="../gallery/index.html">Gallery</a></li>
+<li><a href="../jenskitchensarah/Aboutjen.html">About Chef Jen</a></li>
+<li><a href="../jenskitchensarah/recipes/tapenade.html">Recipes</a></li>
+<li><a href="bgnews.html">Blog</a></li>
+<li><a href="../jenskitchensarah/Glossary.html">Glossary</a></li>
+</ul>
+
+<p>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour!</p>
+
+
+<form action="https://www.learningwebdesign.com/contest.php" method="post">
+
+<fieldsset>
+<legend>Your Information</legend>
+
+<ul>
+<li><label for="form-name">Name:</label> <input type="text" name="username" id="form-name"></li>
+<li><label for="form-address">Address:</label> <input type="address" name="address" id="form-address"></li>
+<li><label for="form-email">Email Address:</label> <input type="email" name="emailaddress" id="form-email"></li>
+<li><label for="form-tel">Telephone Number:</label> <input type="tel" name="telephone" id="form-tel"></li>
+<li><label for="form-story">Delivery instructions:</label><br>
+<textarea name="story" rows="4" cols="60" maxlength="300" id="form-story" placeholder="No more than 300 characters long"></textarea></li>
+</ul>
+</fieldset>
+
+<h2>Design your favorite pizza:</h2>
+
+<fieldset>
+<legend>Pizza specs</legend>
+
+<fieldset>
+<legend>Crust <em>(choose one)</em>:</legend>
+  <ul>
+  <li><label><input type="radio" name="color" value="red"> Classic white</label></li>
+  <li><input type="radio" name="color" value="blue"> Multigrain</li>
+  <li><input type="radio" name="color" value="black"> Cheese-stuffed crust</li>
+  <li><input type="radio" name="color" value="silver"> Gluten-free</li>
+  </ul>
+</fieldset>
+
+<fieldset>
+<legend>Toppings <em>(Choose as many as you want)</em></legend>
+  <ul>
+  <li><input type="checkbox" name="features[]" value="laces"> Red Sauce</li>
+  <li><input type="checkbox" name="features[]" value="logo"> White sauce</li>
+  <li><input type="checkbox" name="features[]" value="heels"> Mozzarella cheese</li>
+  <li><input type="checkbox" name="features[]" value="mp3"> Pepperoni</li>
+  <li><input type="checkbox" name="features[]" value="mp3"> Mushrooms</li>
+  <li><input type="checkbox" name="features[]" value="mp3"> Peppers</li>
+  <li><input type="checkbox" name="features[]" value="mp3"> Anchovies</li>
+  </ul>
+</fieldset>
+
+<fieldset>
+<legend>Number</legend>
+<p>How many pizzas would you like?: <select name="size" size="1">
+<option>5</option>
+<option>6</option>
+<option>7</option>
+<option>8</option>
+<option>9</option>
+<option>10</option>
+<option>11</option>
+<option>12</option>
+<option>13</option>
+</select>
+</p>
+</fieldset>
+
+</fieldset>
+
+<p><input type="submit" value="Bring me pizza!">
+<input type="reset"></p>
+</form>
+</body>
+</html>
